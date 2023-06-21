@@ -1,4 +1,10 @@
 def main():
+
+    celcius = int(input("What is the temperature in celsius? "))
+    fahrenheit = ((9/5)*(celcius)) + 32
+
+    print('Fahrenheit: ' + format(fahrenheit, '.2f'))
+
     """
     ##################################################
     # Comlete your code here
